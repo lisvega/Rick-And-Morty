@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*header*/
+
+header img {
+    width: 100%;
+    padding: 30px;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+li {
+    list-style-type: none;
+    align-items: center;
+    gap: 15px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+body {
+    height: 100vh;
+    background: -webkit-linear-gradient(90deg, rgb(248, 29, 29) 10%, rgb(34, 34, 173) 90%);
+    background: -moz-linear-gradient(90deg, rgb(248, 29, 29) 10%, rgb(34, 34, 173) 90%);
+    background: -ms-linear-gradient(90deg, rgb(248, 29, 29) 10%, rgb(34, 34, 173)90%);
+    background: -o-linear-gradient(90deg, rgb(248, 29, 29) 10%, rgb(34, 34, 173) 90%);
+    background: linear-gradient(90deg, rgb(248, 29, 29) 10%, rgb(34, 34, 173)90%);
+}
+
+
+
+
+
+
+
+
+
+
+/*este es de las li*/
+.character {
+    text-align: center;
+}
+
+
+/*este es del id html*/
+#characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+
+
+}
+
+
+
+.title {
+    color: rgb(21, 237, 78);
+}
+
+.parrafo {
+    color: white;
+    font-weight: 600;
+
+}
+
+
+.character1 {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 2px black;
+    padding: 20px;
+    margin: 40px;
+}
